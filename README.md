@@ -23,6 +23,10 @@
 
 ## 📸 Preview
 
+### 📺 Video Showcase
+[![Geo-Vult Showcase](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+> *Click the image above to watch the tool in action.*
+
 ### Terminal Interface
 The tool features a clean, stylized ASCII header and color-coded status updates for a professional OSINT feel.
 
@@ -90,5 +94,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Developed with ❤️ by [jumpedoverjumpman](https://www.google.com/search?q=https://github.com/jumpedoverjumpman)**
 
-```
 ```
