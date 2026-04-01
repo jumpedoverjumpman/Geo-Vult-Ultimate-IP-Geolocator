@@ -1,3 +1,4 @@
+````markdown
 # 🌍 Geo-Vult-Ultimate-IP-Geolocator
 
 <p align="center">
@@ -24,8 +25,7 @@
 ## 📸 Preview
 
 ### Terminal Interface
-> [!TIP]
-> Your tool features a clean, stylized ASCII header and color-coded status updates.
+The tool features a clean, stylized ASCII header and color-coded status updates for a professional OSINT feel.
 
 ### Interactive Map Output
 The tool generates a high-detail map including:
@@ -41,3 +41,55 @@ The tool generates a high-detail map including:
 ```bash
 git clone [https://github.com/jumpedoverjumpman/Geo-Vult-Ultimate-IP-Geolocator.git](https://github.com/jumpedoverjumpman/Geo-Vult-Ultimate-IP-Geolocator.git)
 cd Geo-Vult-Ultimate-IP-Geolocator
+````
+
+### 2\. Install Dependencies
+
+```bash
+pip install requests folium geopy
+```
+
+-----
+
+## 🚀 Usage
+
+Run the main script:
+
+```bash
+python geo-vult.py
+```
+
+  * **Targeted Search:** Enter any IPv4 address (e.g., `8.8.8.8`).
+  * **Self Search:** Press **Enter** without typing an IP to locate your own network footprint.
+  * **View Map:** Choose `y` when prompted to launch the interactive map in your default browser.
+
+-----
+
+## 🧮 Technical Details
+
+Geo-Vult utilizes the **Nominatim** geocoding engine via `geopy` to reverse-locate coordinates and `folium` to render spatial data. The visual red radius is calculated based on the reported accuracy of the IP data point:
+
+$$Radius_{circle} = Accuracy_{km} \times 1000$$
+
+-----
+
+## 🤝 Contributing
+
+Contributions are welcome\! If you want to add features like batch IP processing, VPN detection, or API rotation:
+
+1.  Fork the Project.
+2.  Create your Feature Branch.
+3.  Open a Pull Request.
+
+-----
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+-----
+
+**Developed with ❤️ by [jumpedoverjumpman](https://www.google.com/search?q=https://github.com/jumpedoverjumpman)**
+
+```
+```
