@@ -24,7 +24,7 @@
 ## 📸 Preview
 
 ### 📺 Video Showcase
-[![Geo-Vult Showcase](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=JRHtDSXi3ms)
+[![Geo-Vult Showcase](https://img.youtube.com/vi/JRHtDSXi3ms/maxresdefault.jpg)](https://www.youtube.com/watch?v=JRHtDSXi3ms)
 > *Click the image above to watch the tool in action.*
 
 ### Terminal Interface
